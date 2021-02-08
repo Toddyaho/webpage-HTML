@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style>
+*{
+	margin:0px;
+padding:0px;}
+.t1{width:250px;
+height:200px;}
+form{position:absolute;
+left:450px;
+top:60px;
+padding:20px 0px 20px 20px;
+width:450px;
+height:550px;
+border:solid #0F3 2px;
+background-image: url(图片/2.1.jpg);}
+.t2{position:relative;
+left:50px;}
+.t3{position:relative;
+left:200px;}
+</style>
+</head>
+
+<body>
+<form>
+用户名：<input type="text" autofocus="autofocus" size="10" required/><br/><br/>
+密码：<input type="password" size="17" pattern="^[a-zA-Z]\w{5,17}$" required/><br/><br/>
+手机号：<input type="text"  size="11" required/><br/><br/>
+邮箱：<input type="email" size="20" required/><br/><br/>
+性别：<input type="radio" name="sex"/>男
+<input type="radio" name="sex"/>女<br/><br/>
+爱好：<input type="checkbox"/>唱歌<input type="checkbox"/>跳舞
+<input type="checkbox"/>游戏<input type="checkbox"/下棋<br/><br/>
+文化程度：
+<select>
+<option>小学毕业</option>
+<option>初中毕业</option>
+<option>高中毕业</option>
+<option>大学毕业</option>
+</select><br/><br/>
+简介：<br/>&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" class="t1" maxlength="80"/><br/><br/>
+<input type="reset"  class="t2" value="取消"/><input type="submit" class="t3" value="登录"/>
+</form>
+</body>
+</html>
